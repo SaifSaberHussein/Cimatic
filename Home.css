@@ -1,0 +1,277 @@
+html, ol, ul, li, span, body, table, img, p, h1, h2, h3, h4, hr, #BAR{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1f2123;
+}
+#BAR {
+   background-color: #0a0b0c;
+}
+#log{
+    position: absolute; right: 110px; top: 25px;font-size: 30px;
+    color:#2279eb ;
+}
+a:link { 
+    text-decoration: none; 
+  } 
+#sign{
+    position: absolute; right: 190px; top: 25px; 
+    font-size: 30px;
+    color:#2279eb;
+}
+a:link { 
+    text-decoration: none; 
+  }     
+
+#SB {
+    background-color: #15171a;
+    margin:auto;
+    padding: auto;
+}
+#searchicon{
+    position: absolute; right: 310px; top: 32px; 
+    color: #2279eb;
+    height: 30px;
+    width: 30px;
+    background-color:#15171a;
+    border: 1px;
+}
+
+#searchbar {
+   position: absolute;
+   right: 350px;top: 32px;
+   width: 180px;
+   height: 28px;
+   color: #fff ;
+   background-color:#191b1ec1 ;
+   border: 1px;
+   outline:none ;
+   text-indent: 5px;
+}
+#programming{
+    right: 500px;
+}
+#food{
+    color: #2279eb ;
+   position: relative;
+   left: 20%;
+   font-size: 20px;
+}
+#Kids{
+    color: #2279eb ;
+    position: relative;
+    left: 40%;
+    font-size: 25px;
+}
+#i{
+    color: #2279eb ;
+    position: relative;
+    left: 60%;
+    font-size: 25px;
+}
+#f{
+    color: #2279eb ;
+    position: relative;
+    padding-right: 5px;
+    top: 3px;
+}
+#du{
+    height: 350px;
+    width: 280px;
+    /* margin-top: 50px; */
+}
+#au{
+    height: 350px;
+    width: 280px;
+    /* margin-left: 70px;
+    margin-top: 50px; */
+}
+#bu{
+    height: 350px;
+    width: 280px;
+    /* margin-left: 70px;
+    margin-top: 50px; */
+}
+#cu{
+    height: 350px;
+    width: 280px;
+    /* margin-left: 70px;
+    margin-top: 50px; */
+}
+#movies{
+    text-align: center;
+    margin-top: 35px;
+}
+h1{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 60px;
+    color: #2279eb ;
+
+}
+#ku{
+    height: 350px;
+    width: 280px;
+    margin-top: 50px;
+}
+#nu{
+    height: 350px;
+    width: 280px;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+#lu{
+    height: 350px;
+    width: 280px;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+#uu{
+    height: 350px;
+    width: 280px;
+    margin-left: 70px;
+    margin-top: 50px
+}
+#movies2{
+    text-align: center;
+}
+/* #m1{
+    margin-top: -120px;
+    font-size: 13px;
+    position: absolute;
+    top: 830px; 
+    left: 40px;
+    color: aliceblue;
+}
+#m2{
+    margin-top: -120px;
+    font-size: 13px;
+    position: absolute;
+    top: 830px; 
+    left: 400px;
+    color: aliceblue;
+}
+#m3{
+    margin-top: -120px;
+    font-size: 13px;
+    position: absolute;
+    top: 830px; 
+    left: 830px;
+    color: aliceblue;
+}
+#m4{
+        margin-top: -120px;
+        font-size: 13px;
+        position: absolute;
+        top: 830px; 
+        left: 1180px;
+        color: aliceblue;
+}
+#m5{
+        color: aliceblue;
+        position: absolute;
+        left: 150px;
+        font-size: 13px;
+        margin-top: 20px;
+}
+#m6{
+        color: aliceblue;
+        position: absolute;
+        left: 475px;
+        font-size: 13px;
+        margin-top: 20px;
+}
+#m7{
+        color: aliceblue;
+        position: absolute;
+        left: 860px;
+        font-size: 13px;
+        margin-top: 20px;
+}
+#m8{
+        color: aliceblue;
+        position:absolute;
+        margin-top: 20px;
+        left: 1100px;
+        font-size: 13px;
+} */
+#footer{
+    position: relative;
+top: 200px;
+    background-color: #111214;
+}
+#logoo{
+    font-size: 50px;
+    size: 50px;
+}
+#about{
+    position: absolute;
+    bottom:  -60px;
+    left: 450px;
+    color: aliceblue;
+}
+#aboutus{
+    position: absolute;
+    bottom: -90px;
+    left: 450px;
+    color: aliceblue;
+}
+#faq{
+    position: absolute;
+    bottom: -120px;
+    left: 450px;
+    color: aliceblue;
+    text-decoration: none;
+}
+#conn{
+    position: absolute;
+    bottom: -150px;
+    left: 445px;
+    color: aliceblue;
+    text-decoration: none;
+}
+#explore{
+    position: absolute;
+    bottom: -60px;
+    left: 750px;
+    color: aliceblue;
+}
+#whatson{
+    position: absolute;
+    bottom: -90px;
+    left: 750px;
+    text-decoration: none;
+    color: aliceblue;
+}
+#foods{
+    position: absolute;
+    bottom: -120px;
+    left: 750px;
+    text-decoration: none;
+    color: aliceblue;
+}
+#footer2{
+    position: relative;
+    top: 100px;
+}
+
+
+.test {
+    margin: 0 auto;
+    max-width: 1350px;
+    background-color: #1f2123;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.card{
+    margin: 10px 10px;
+    width: 300px;
+    display: block;
+    padding: auto;
+    display: inline-block;
+    vertical-align: top;
+}
