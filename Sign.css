@@ -1,0 +1,294 @@
+html, ol, ul, li, span, body, table, img, p, h1, h2, h3, h4, hr, #home_div{
+    margin: 0;
+    padding: 0;
+}
+
+#BAR {
+    background-color: rgb(14, 12, 12);
+}
+
+a:link { 
+    text-decoration: none; 
+} 
+
+#SB {
+        background-color: #1f2123;
+        margin:auto;
+        padding: auto;
+}
+
+#searchicon{
+    position: absolute; right: 310px; top: 32px; 
+    color: #2279eb;
+    height: 30px;
+    width: 30px;
+    background-color:#1f2123;
+    border: 1px;
+}
+
+#searchbar {
+    position: absolute;
+    right: 350px;top: 32px;
+    width: 180px;
+    height: 28px;
+    color: #fff ;
+    background-color:#1f2123;
+    border: 1px;
+    outline:none ;
+    text-indent: 5px;
+}
+
+#programming{
+    right: 500px;
+    }
+
+
+
+    #footer{
+        position: relative;
+    top: 200px;
+        background-color: #111214;
+    }
+    #logoo{
+        font-size: 50px;
+        size: 50px;
+    }
+    #about{
+        position: absolute;
+        bottom:  -60px;
+        left: 450px;
+        color: aliceblue;
+    }
+    #aboutus{
+        position: absolute;
+        bottom: -90px;
+        left: 450px;
+        color: aliceblue;
+    }
+    #faq{
+        position: absolute;
+        bottom: -120px;
+        left: 450px;
+        color: aliceblue;
+        text-decoration: none;
+    }
+    #conn{
+        position: absolute;
+        bottom: -150px;
+        left: 445px;
+        color: aliceblue;
+        text-decoration: none;
+    }
+    #explore{
+        position: absolute;
+        bottom: -60px;
+        left: 750px;
+        color: aliceblue;
+    }
+    #whatson{
+        position: absolute;
+        bottom: -90px;
+        left: 750px;
+        text-decoration: none;
+        color: aliceblue;
+    }
+    #foods{
+        position: absolute;
+        bottom: -120px;
+        left: 750px;
+        text-decoration: none;
+        color: aliceblue;
+    }
+    #footer2{
+        position: relative;
+        top: 100px;
+    }
+    
+
+
+    
+body{
+    width: 100%;
+    background-color: #1f2123;
+}
+
+#home_div{
+    background-color: #1f2123;/*grey color
+    ,        black: rgb(14, 12, 12);
+    very dark blue: rgb(1, 2, 19, 0.986);
+    .    dark blue: rgb(1, 1, 93);
+    .         blue: #070789;
+    light blue    : rgb(23, 170, 219);  */
+    width: 350px;
+    height: 450px;
+    border-radius: 15px;
+    box-shadow: -7px -7px 17px rgb(44, 44, 44),
+                7px   7px 17px   rgb(14, 12, 12);
+    margin: 10% auto;
+    padding: 0px 55px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    align-items: center;
+    /* opacity: 1;
+    transition: opacity 0.5s ease; */
+}
+
+/* #home_div.hide {
+    opacity: 0;
+}
+
+/* #home_div.active {
+    opacity: 1; /* When active, set opacity to 1 to trigger fade-in effect 
+} */ 
+
+h1{
+    color: rgb(23, 170, 219);
+    text-align: center;
+    padding-bottom:25px;
+    font-family: "Sofia", sans-serif;
+}
+
+hr{
+    border-color: rgb(23, 170, 219);
+    margin-bottom:30px;
+}
+
+.input{
+    position: relative;
+    color:white;
+    box-shadow: -7px -7px 10px rgb(38, 38, 38),
+                7px   7px 17px rgb(14, 12, 12);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px 0;
+    
+}
+
+.input input{
+    background:transparent;
+    border: none;
+    outline: none;
+    color:rgb(23, 170, 219);
+    padding-right: 130px;
+}
+
+.name{
+        width: 44%;
+}
+
+.second{
+    width:198px ;
+    transform: translate(230px,-71px);
+    position:absolute;
+
+}
+
+input::placeholder {
+    color:rgb(23, 170, 219);
+}
+
+.name input{
+    padding-right: 0px;
+}
+
+.person_icon{
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    transform: translate(7px,0px);
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+#gender{
+    background:transparent;
+    border: none;
+    outline: none;
+    color:rgb(23, 170, 219);
+    padding-right: 105px;
+}
+
+.email_icon{
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    transform: translate(7px,0px);
+}
+
+.lock_icon{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    transform: translate(10px,1px);
+}
+
+.remember_forgot{
+    color:white;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+label{
+    margin-right:82px;
+    font: 23px "Sofia", sans-serif;
+}
+
+label:hover{
+    color: rgb(23, 170, 219);
+    cursor:copy;
+
+}
+
+span{
+    color: white;
+    font-size: 20px;
+    text-decoration: underline #1f2123;
+    font-family: "Sofia", sans-serif;
+} 
+
+span:hover{
+    color: rgb(23, 170, 219);
+    cursor:pointer;
+}
+
+.button:hover {
+    color:rgb(23, 170, 219);
+    transform: scale(1.03);
+    box-shadow: -7px -7px 17px rgb(14, 12, 12),
+                7px   7px 17px rgb(38, 38, 38);
+
+}
+
+.button{
+    background-color: rgb(14, 12, 12);
+    background:linear-gradient(10deg, #212326 11%,
+    #1f2123 25%, 
+    rgb(14, 12, 12) 70%);
+    color: white;
+    border: 0.5px solid rgb(21, 21, 21);
+    box-shadow: -7px -7px 17px rgb(38, 38, 38),
+                7px   7px 17px rgb(14, 12, 12);
+    padding: 15px 147px;
+    text-align: center;
+    display: inline-block;
+    font-size: 17px;
+    margin-left: 7px;
+    cursor: pointer;
+    border-radius: 15px;
+    border:none;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+p{
+    margin:20px 0px;
+    text-align: center;
+    color:white;
+    
+    font: 18px "Sofia", sans-serif;
+}
+
+option{
+    background-color:#1f2123;
+}
