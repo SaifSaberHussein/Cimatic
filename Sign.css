@@ -290,14 +290,14 @@ label:hover{
 
 }
 
-span{
+.span{
     color: white;
     font-size: 20px;
     text-decoration: underline #1f2123;
     font-family: "Sofia", sans-serif;
 } 
 
-span:hover{
+.span:hover{
     color: rgb(23, 170, 219);
     cursor:pointer;
 }
@@ -330,7 +330,7 @@ span:hover{
     font-family: Copperplate, Papyrus, fantasy;
 }
 
-p{
+.question{
     margin:20px 0px;
     text-align: center;
     color:white;
