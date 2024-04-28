@@ -11,6 +11,27 @@ a:link {
     text-decoration: none; 
 } 
 
+#searchicon{
+     position: absolute; right: 100px; top: 32px; 
+     color: #2279eb;
+     height: 28px;
+     width: 30px;
+     background-color:#15171a;
+    border: 1px;
+    }
+    
+#searchbar {
+    position: absolute;
+    right: 135px;
+    top: 32px;
+    width: 180px;
+    height: 28px;
+    color: #fff ;
+    background-color:#191b1ec1 ;
+    border: 1px;
+    outline:none ;
+    text-indent: 5px;
+        }
 
 #programming{
     right: 500px;
