@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const currentPage = document.querySelector('.sign');
 
             currentPage.classList.add('hide');
-            
+
             setTimeout(function() {
                 window.location.href = nextPage;
             }, 500);
@@ -18,3 +18,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
+document.querySelector(".Expand").addEventListener("click", function() {
+    document.getElementById("ul").style.fontSize='35px';
+});
