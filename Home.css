@@ -1,0 +1,375 @@
+html, ol, ul, li, span, body, table, img, p, h1, h2, h3, h4, hr, #BAR{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #1f2123
+}
+#allBody {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+margin-right: 20px;
+}
+#BAR {
+   background-color: #0a0b0c;
+}
+#log{
+    position: absolute; right: 160px; top: 26px;font-size: 30px;
+    color:#2279eb ;
+}
+a:link { 
+    text-decoration: none; 
+  } 
+#sign{
+    position: absolute; right: 240px; top: 25px; 
+    font-size: 30px;
+    color:#2279eb;
+}
+a:link { 
+    text-decoration: none; 
+}     
+#cart{
+    position: absolute;
+    width:50px;
+    right: 91px;
+    top: 18px;
+}
+#SB {
+background-color: #15171a;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.dropbtn {
+    background-color:#2279eb  ;
+    color: white;
+    padding: 4px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+  
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e7e8e;
+}
+  
+
+#myInput {
+box-sizing: border-box;
+background-image: url('searchicon.png');
+background-position: 14px 12px;
+background-repeat: no-repeat;
+font-size: 16px;
+padding: 14px 20px 12px 45px;
+border: none;
+border-bottom: 1px solid #ddd;
+}
+
+
+#myInput:focus {outline: 3px solid #ddd;}
+
+
+.dropdown {
+position: absolute;
+right: 350px;
+top: 33px;
+display: inline-block;
+}
+
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #194575;
+min-width: 230px;
+border: 1px solid #ddd;
+z-index: 1;
+}
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #239cba
+}
+
+
+.show {display:block;}
+
+#programming{
+    right: 500px;
+}
+#food{
+    color: #2279eb ;
+   position: relative;
+   left: -200px;
+   font-size: 20px;
+}
+#Kids{
+    color: #2279eb ;
+    position: relative;
+    left: 0px;
+    font-size: 25px;
+}
+#i{
+    color: #2279eb ;
+    position: relative;
+    left: 250px;
+    font-size: 25px;
+}
+#f{
+    color: #2279eb ;
+    position: relative;
+    left: 60px;
+    top: 2px;
+}
+#KONG{
+    height: 360px;
+    width: 260px;
+}
+#MINISTRY{
+    height: 360px;
+    width: 260px;
+}
+#DUNE{
+    height: 360px;
+    width: 260px;
+}
+#PANDA{
+    height: 360px;
+    width: 260px;
+}
+#movies{display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+h1{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 60px;
+    color: #2279eb ;
+}
+#WONKA{
+    height: 360px;
+    width: 260px;
+}
+#SLOTHER{
+    height: 360px;
+    width: 260px;
+}
+#SHEQO{
+    height: 360px;
+    width: 260px;
+}
+#SUGA{
+    height: 360px;
+    width: 260px;
+}
+#movies2{display: flex;
+    justify-content: center;
+}
+#m1{color: rgb(255, 255, 255);
+    font-size: 14.6px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+#m2{
+    color: rgb(255, 255, 255);
+    font-size: 14.6px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+#m3{
+    color: rgb(255, 255, 255);
+    font-size: 14.6px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+#m4{
+    color: rgb(255, 255, 255);
+    font-size: 14.6px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+#m5{
+    color: rgb(255, 255, 255);
+    font-size: 14.6px;
+    margin-top: 20px;
+ 
+    text-align: center;
+    font-weight: bold;
+}
+#m6{
+    color: rgb(255, 255, 255);
+    font-size: 14.6px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+#m7{
+    color: rgb(255, 255, 255);
+    font-size: 14.6px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+#m8{
+    color: rgb(255, 255, 255);
+    font-size: 14.6px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+#logoo{
+    position: relative;
+    display: block;
+    display: inline-block;
+    font-size: 50px;
+    size: 50px;
+    top: 50px;
+    right: 500px;
+}
+#S_logoos{
+    text-align: center;
+    margin-top: 10px;
+}
+#facebook{
+    position: relative;
+    display: block;
+    display: inline-block;
+    top: 100px;
+    right: 624px;
+}
+#instagram{
+    position: relative;
+    display: block;
+    display: inline-block;
+    top: 100px;
+    right: 608px;
+}
+#twitter{
+    position: relative;
+    display: block;
+    display: inline-block;
+    top: 100px;
+    right: 594px;
+}
+#about{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    right: 50px;
+    top: 60px;
+}
+#aboutus{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    right: 95px;
+    top: 100px;
+    color: rgb(255, 255, 255);
+}
+#faq{
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    right: 152px;
+    top: 130px;
+    display: inline-block;
+}
+#conn{
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    right: 188px;
+    top: 160px;
+    display: inline-block;
+}
+#explore{
+    position: relative;
+    display: inline-block;
+    top: 60px;
+    color: rgb(255, 255, 255);
+    left: 33px;
+    
+}
+#whatson{
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    top: 100px;
+    display: inline-block;
+    right: 80px;
+}
+#foods{
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    top: 130px;
+    display: inline-block;
+    right: 150px;
+}
+footer{
+    width:100%;
+    height:184px;
+    margin-top: auto;
+    bottom:0;
+    background-color: #111214;
+}
+#allFooter{
+    position: relative;
+    right: 10px;
+}
+#S_logoos{
+    position: relative;
+    bottom: 20px;
+}
+#FootInfo{
+    position: relative;
+    bottom: 100px;
+    text-align: center;
+}
+#space{
+    margin-top: 200px;
+}
+
+.test{
+    margin-right:auto;
+    margin-left:auto;
+    max-width:1350px;
+    background-color: #1f2123;
+}
+#table{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+table, th, td {
+border:1px solid white;
+border-collapse:collapse ;
+height: 30px;
+}
+
+#ul{
+    color: #fff;
+}
+.li{
+    margin-left: 30px;
+}
