@@ -1,0 +1,338 @@
+
+
+
+html, ol, ul, li, span, body, table, img, p, h1, h2, h3, h4, hr, #BAR{
+    margin: 0;
+    padding: 0;
+}
+.ul{
+  height: 300px;
+  width: 200px;
+  position: relative;
+  bottom: 500px;
+  left: 750px;
+  font-size: 18px;
+  color: aqua;
+}
+.sub{
+  background: aqua;
+  width: 90px;
+  height: 40px;
+  position: relative;
+  bottom: 210px;
+  left: 110px;
+}
+.com{
+  background: #15171a ;
+  width: 450px;
+  height: 350px;
+  position: relative;
+  left: 200px;
+  bottom: 250px;
+  
+}
+table,th, td,tr {
+  border:1px solid white;
+  color: aqua;
+  width: 200px;
+  height: 40px;
+  position: relative;
+  bottom: 60px;
+  left: 240px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;  /* This makes the body element a flex container */
+    min-height: 100vh;
+    background-color: #1f2123;
+    
+}
+.ff{
+  color: white;
+}
+.x{
+    display: flex;
+    flex-direction: column;
+    min-height: ;
+    justify-content: center;
+    align-items: center; 
+  
+}
+.oo{
+  position: relative;
+  left: 5px;
+  font-size: 12px;
+  top: 20px;
+  display: inline-block;
+}
+.jj{
+  color: white;
+  width: 64px;
+  height: 64px;
+  background-image: url("https://cdn.discordapp.com/attachments/1232392404217233483/1232392494990491710/ticket.png?ex=66294a73&is=6627f8f3&hm=16f548dcfed5ab4c003e3d434ea6b56147304d1c8c9ac9bea29a99afb485f058&");
+ position: relative;
+left: 250px;
+  background-size: contain;
+  top: 80px;
+  display: inline-block;
+}
+.gg{
+  position: relative;
+  top: 20px;
+  left: 5px;
+  font-size: 12px;
+  display: inline-block;
+}
+.kk{
+  color: white;
+  width: 64px;
+  height: 64px;
+  background-image: url("https://cdn.discordapp.com/attachments/1232392404217233483/1232392494990491710/ticket.png?ex=66294a73&is=6627f8f3&hm=16f548dcfed5ab4c003e3d434ea6b56147304d1c8c9ac9bea29a99afb485f058&");
+ position: relative;
+  background-size: contain;
+  display: inline-block;
+  top: 80px;
+  left: 120px;
+}
+.vv{
+  position: relative;
+  top: 20px;
+  left: 5px;
+  font-size: 12px;
+  display: inline-block;
+}
+.bb{
+  color: white;
+  font-size: 14px;
+}
+.sss{
+  color: white;
+  line-height: 35px;
+  font-size: 14px;
+}
+.cc{
+  color: white;
+  width: 64px;
+  height: 64px;
+  background-image: url("https://cdn.discordapp.com/attachments/1232392404217233483/1232392494990491710/ticket.png?ex=66294a73&is=6627f8f3&hm=16f548dcfed5ab4c003e3d434ea6b56147304d1c8c9ac9bea29a99afb485f058&");
+ position: relative;
+  background-size: contain;
+  display: inline-block;
+  top: 80px;
+}
+h4{color: royalblue;
+  font-size: 15px;
+  display: inline-block;
+}
+hr{
+  position: relative;
+  top: 10px;
+  width: 97.5%;
+}
+h1{
+  color: white;
+  
+}
+
+.d{
+  margin: 130px;
+  margin-top: 30px;
+}
+
+.i{
+  width: 200px;
+  height: 300px;
+  display: inline;
+}
+.v {
+    position: relative;
+    align-items: center;
+    color: white;
+    font-size: 32px;
+  display: inline;
+  position: relative;
+  left: 50px;
+  border: ;
+}
+#BAR {
+   background-color: #0a0b0c;
+}
+#log{
+    position: absolute; right: 110px; top: 25px;font-size: 30px;
+    color:#2279eb ;
+}
+a:link { 
+    text-decoration: none; 
+  } 
+#sign{
+    position: absolute; right: 190px; top: 25px; 
+    font-size: 30px;
+    color:#2279eb;
+}
+a:link { 
+    text-decoration: none; 
+  }     
+
+  #SB {
+    background-color: #15171a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#searchicon{
+    position: absolute; right: 310px; top: 32px; 
+    color: #2279eb;
+    height: 30px;
+    width: 30px;
+    background-color:#15171a;
+    border: 1px;
+}
+
+#searchbar {
+   position: absolute;
+   right: 350px;top: 32px;
+   width: 180px;
+   height: 28px;
+   color: #fff ;
+   background-color:#191b1ec1 ;
+   border: 1px;
+   outline:none ;
+   text-indent: 5px;
+}
+#programming{
+    right: 500px;
+}
+#food{
+    color: #2279eb ;
+   position: relative;
+   left: -200px;
+   font-size: 20px;
+}
+#Kids{
+    color: #2279eb ;
+    position: relative;
+    left: 0px;
+    font-size: 25px;
+}
+#i{
+    color: #2279eb ;
+    position: relative;
+    left: 250px;
+    font-size: 25px;
+}
+#f{
+    color: #2279eb ;
+    position: relative;
+    left: 60px;
+    top: 2px;
+}
+#logoo{
+    position: relative;
+    display: block;
+    display: inline-block;
+    font-size: 50px;
+    size: 50px;
+    top: 50px;
+    right: 500px;
+}
+#S_logoos{
+    text-align: center;
+}
+#facebook{
+    position: relative;
+    display: block;
+    display: inline-block;
+    top: 100px;
+    right: 624px;
+}
+#instagram{
+    position: relative;
+    display: block;
+    display: inline-block;
+    top: 100px;
+    right: 608px;
+}
+#twitter{
+    position: relative;
+    display: block;
+    display: inline-block;
+    top: 100px;
+    right: 594px;
+}
+#about{
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    right: 50px;
+    top: 70px;
+}
+#aboutus{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    right: 95px;
+    top: 100px;
+    color: aliceblue;
+}
+#faq{
+    position: relative;
+    color: aliceblue;
+    text-decoration: none;
+    right: 152px;
+    top: 130px;
+    display: inline-block;
+}
+#conn{
+    position: relative;
+    color: aliceblue;
+    text-decoration: none;
+    right: 188px;
+    top: 160px;
+    display: inline-block;
+}
+#explore{
+    position: relative;
+    display: inline-block;
+    top: 70px;
+    color: aliceblue;
+    left: 33px;
+    
+}
+#whatson{
+    position: relative;
+    color: aliceblue;
+    text-decoration: none;
+    top: 100px;
+    display: inline-block;
+    right: 80px;
+}
+#foods{
+    position: relative;
+    color: aliceblue;
+    text-decoration: none;
+    top: 130px;
+    display: inline-block;
+    right: 150px;
+}
+footer{
+    width:100%;
+    height:184px;
+    margin-top: auto;
+    bottom:0;
+    background-color: #111214;
+}
+#allFooter{
+    position: relative;
+    right: 8px;
+}
+#S_logoos{
+    position: relative;
+    bottom: 20px;
+}
+#FootInfo{
+    position: relative;
+    bottom: 100px;
+    text-align: center;
+}
