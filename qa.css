@@ -1,0 +1,355 @@
+html, ol, ul, li, span, body, table, img, p, h1, h2, h3, h4, hr, #BAR{
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;  
+    min-height: 100vh;
+    background-color: #1f2123
+}
+#allBody {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+#BAR {
+   background-color: #0a0b0c;
+}
+#log{
+    position: absolute; right: 160px; top: 26px;font-size: 30px;
+    color:#2279eb ;
+}
+a:link { 
+    text-decoration: none; 
+  } 
+#sign{
+    position: absolute; right: 240px; top: 25px; 
+    font-size: 30px;
+    color:#2279eb;
+}
+a:link { 
+    text-decoration: none; 
+}     
+#cart{
+    position: absolute;
+    width:50px;
+    right: 91px;
+    top: 18px;
+}
+#SB {
+background-color: #15171a;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#searchicon{
+    position: absolute; right: 360px; top: 32px; 
+    color: #2279eb;
+    height: 30px;
+    width: 30px;
+    background-color:#15171a;
+    border: 1px;
+}
+
+#searchbar {
+   position: absolute;
+   right: 400px;top: 32px;
+   width: 180px;
+   height: 28px;
+   color: #fff ;
+   background-color:#191b1ec1 ;
+   border: 1px;
+   outline:none ;
+   text-indent: 5px;
+}
+#programming{
+    right: 500px;
+}
+#food{
+    color: #2279eb ;
+   position: relative;
+   left: -200px;
+   font-size: 20px;
+}
+#Kids{
+    color: #2279eb ;
+    position: relative;
+    left: 0px;
+    font-size: 25px;
+}
+#i{
+    color: #2279eb ;
+    position: relative;
+    left: 250px;
+    font-size: 25px;
+}
+#f{
+    color: #2279eb ;
+    position: relative;
+    left: 60px;
+    top: 2px;
+}
+#logoo{
+    position: relative;
+    display: block;
+    display: inline-block;
+    font-size: 50px;
+    size: 50px;
+    top: 50px;
+    right: 500px;
+}
+#S_logoos{
+    text-align: center;
+    margin-top: 10px;
+}
+#facebook{
+    position: relative;
+    display: block;
+    display: inline-block;
+    top: 100px;
+    right: 624px;
+}
+#instagram{
+    position: relative;
+    display: block;
+    display: inline-block;
+    top: 100px;
+    right: 608px;
+}
+#twitter{
+    position: relative;
+    display: block;
+    display: inline-block;
+    top: 100px;
+    right: 594px;
+}
+#about{
+    color: #fff;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    right: 50px;
+    top: 60px;
+}
+#aboutus{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    right: 95px;
+    top: 100px;
+    color: #fff;
+}
+#faq{
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    right: 152px;
+    top: 130px;
+    display: inline-block;
+}
+#conn{
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    right: 188px;
+    top: 160px;
+    display: inline-block;
+}
+#explore{
+    position: relative;
+    display: inline-block;
+    top: 60px;
+    color: #fff;
+    left: 33px;
+    
+}
+#whatson{
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    top: 100px;
+    display: inline-block;
+    right: 80px;
+}
+#foods{
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    top: 130px;
+    display: inline-block;
+    right: 150px;
+}
+footer{
+    width:100%;
+    height:184px;
+    margin-top: auto;
+    bottom:0;
+    background-color: #111214;
+}
+#allFooter{
+    position: relative;
+    right: 8px;
+}
+#S_logoos{
+    position: relative;
+    bottom: 20px;
+}
+#FootInfo{
+    position: relative;
+    bottom: 100px;
+    text-align: center;
+}
+#qa{
+    position: relative;
+   margin-top: 10px;
+   margin-right: 20px;
+    color: #2279eb;
+    font-size: 50px;
+}
+.A1{
+    justify-items: center;
+    color: #fff;
+    font-size: 20px;
+    
+     margin-top: 50px;
+     position: absolute;
+    left:185px ;
+}
+#q1{
+    position: relative;
+    justify-items: center;
+    color: #fff;
+    font-size: 25px;
+    top: 50px;
+    right: 475px;
+    font-weight: bold;
+}
+.A2{
+    justify-items: center;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 30px;
+    position: absolute;
+    left: 160px;
+}
+
+#q2{
+    justify-items: center;
+    color: #fff;
+    font-size: 25px;
+    margin-top: 120px;
+    margin-right: 720px;
+    font-weight: bold;
+}
+.A3{
+    justify-items: center;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 110px;
+    position: absolute;
+     left:150px ;
+}
+
+#q3{
+    position: relative;
+    justify-items: center;
+    color: #fff;
+    font-size: 25px;
+    top: 120px;
+    font-weight: bold;
+    right: 287px;
+}
+.A4{
+   justify-items: center;
+    color: #fff;
+    font-size: 20px;
+    margin-top: -15px;
+     position: absolute;
+     left: 150px;
+}
+
+#q4{
+    justify-items: center;
+    color: #fff;
+    font-size: 25px;
+    margin-top: 193px;
+    margin-right: 376px;
+    font-weight: bold;
+}
+.A5{
+    justify-items: center;
+     color: #fff;
+     font-size: 20px;
+     margin-top: 10px;
+     position: absolute;
+     left: 155px;
+ }
+ 
+ #q5{
+     justify-items: center;
+     color: #fff;
+     font-size: 25px;
+     margin-top: 117px;
+     margin-right: 703px;
+     font-weight: bold;
+ }
+#allq{
+    position: relative;
+    text-align: center;}
+    #space{
+        margin-top: 200px;
+    }
+#topmarg{
+    margin-top: 30px;
+}
+.question-button{
+    display: block;
+    text-decoration: none;
+    color: #0800ff;
+    border: 1px solid #000000;
+    padding: 5px 5px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    top: 20px;
+    margin-left: 300px;
+    left: 50%;
+}
+.question-button:hover{
+    color: #0000ff;
+    background: #00ffae;
+    transition: 0.5s;
+}
+#answer{
+    display: none;
+}
+#q3pos{
+   position: relative;
+   left: 950px;
+   top: 90px;
+   left: 50%;
+}
+#q4pos{
+    position: relative;
+    left: 1140px;
+   top: -30px;
+   left: 50%;
+}
+#q5pos{
+    position: relative;
+    left: 830px;
+   top: -30px;
+   left: 50%;
+}
+#q2pos{
+    position: relative;
+    left: 790px;
+   top: -30px;
+   left: 50%;
+}
+#iframe{
+    position: relative;
+    left: 50%;
+}

@@ -1,0 +1,320 @@
+html, ol, ul, li, span, body, table, img, p, h1, h2, h3, h4, hr, #BAR{
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;  
+    min-height: 100vh;
+    background-color: #1f2123
+}
+h1{
+    color: #2279eb;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    font-size: 50px;
+}
+.Payment{
+    color: #2279eb;
+    font-size: 25px;
+    position: relative;
+    text-align: center;
+    border: 0.5px solid #000;
+    width: 640px;
+    height: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-right: 10px;
+    margin-bottom: 500px;
+}
+span.pay{
+    position: relative;
+    right: 50px;
+    text-align: center;
+}
+#Card{
+    position: relative;
+    right: 125px;
+}
+#exp{
+    position: relative;
+    right: 130px;
+}
+#cvv1{
+    position: relative;
+    right: 95px;
+}
+
+#cvv{
+    color: #fff;
+    background-color:#26282b ;
+    position: relative;
+    left: 114px;
+    width: 200px;
+    height: 35px;
+    border: 0.5px solid #000;
+    outline: none; 
+}
+#Expiry_MM{
+    color: #2279eb;
+    background-color:#26282b ;
+    position: relative;
+    left: 150px;
+    width: 100px;
+    height: 35px;
+    border: 0.5px solid #000;
+    outline: none;
+}
+#Expiry_YY{
+    color: #2279eb;
+    background-color:#26282b ;
+    position: relative;
+    left: 150px;
+    width: 100px;
+    height: 35px;
+    border: 0.5px solid #000;
+    outline: none;
+}
+#Number{
+    color: #fff;
+    background-color:#26282b ;
+    position: relative;
+    left: 142px;
+    width: 200px;
+    height: 35px;
+    border: 0.5px solid #000;
+    outline: none;
+}
+#ok{
+    color: #fff;
+    background-color: #2279eb;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+}
+
+input::placeholder{
+    color: #2279eb;
+}
+.card{
+    text-align: center;
+}
+#master{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    right: 277px;
+}
+#visa{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    right: 277px;
+}
+#iframe{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////// */
+#allBody {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+margin-right: 20px;
+}
+#BAR {
+   background-color: #0a0b0c;
+}
+#log{
+    position: absolute; right: 160px; top: 26px;font-size: 30px;
+    color:#2279eb ;
+}
+a:link { 
+    text-decoration: none; 
+  } 
+#sign{
+    position: absolute; right: 240px; top: 25px; 
+    font-size: 30px;
+    color:#2279eb;
+}
+a:link { 
+    text-decoration: none; 
+}     
+#cart{
+    position: absolute;
+    width:50px;
+    right: 91px;
+    top: 18px;
+}
+#SB {
+background-color: #15171a;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#searchicon{
+    position: absolute; right: 360px; top: 32px; 
+    color: #2279eb;
+    height: 30px;
+    width: 30px;
+    background-color:#15171a;
+    border: 1px;
+}
+
+#searchbar {
+   position: absolute;
+   right: 400px;top: 32px;
+   width: 180px;
+   height: 28px;
+   color: #fff ;
+   background-color:#191b1ec1 ;
+   border: 1px;
+   outline:none ;
+   text-indent: 5px;
+}
+#programming{
+    right: 500px;
+}
+#food{
+    color: #2279eb ;
+   position: relative;
+   left: -200px;
+   font-size: 20px;
+}
+#Kids{
+    color: #2279eb ;
+    position: relative;
+    left: 0px;
+    font-size: 25px;
+}
+#i{
+    color: #2279eb ;
+    position: relative;
+    left: 250px;
+    font-size: 25px;
+}
+#f{
+    color: #2279eb ;
+    position: relative;
+    left: 60px;
+    top: 2px;
+}
+/* ////////////////////////////////// */
+#logoo{
+    position: relative;
+    display: block;
+    display: inline-block;
+    font-size: 50px;
+    size: 50px;
+    top: 50px;
+    right: 500px;
+}
+#S_logoos{
+    text-align: center;
+    margin-top: 10px;
+}
+#facebook{
+    position: relative;
+    display: block;
+    display: inline-block;
+    top: 100px;
+    right: 624px;
+}
+#instagram{
+    position: relative;
+    display: block;
+    display: inline-block;
+    top: 100px;
+    right: 608px;
+}
+#twitter{
+    position: relative;
+    display: block;
+    display: inline-block;
+    top: 100px;
+    right: 594px;
+}
+#about{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    right: 50px;
+    top: 60px;
+}
+#aboutus{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    right: 95px;
+    top: 100px;
+    color: rgb(255, 255, 255);
+}
+#faq{
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    right: 152px;
+    top: 130px;
+    display: inline-block;
+}
+#conn{
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    right: 188px;
+    top: 160px;
+    display: inline-block;
+}
+#explore{
+    position: relative;
+    display: inline-block;
+    top: 60px;
+    color: rgb(255, 255, 255);
+    left: 33px;
+    
+}
+#whatson{
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    top: 100px;
+    display: inline-block;
+    right: 80px;
+}
+#foods{
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    top: 130px;
+    display: inline-block;
+    right: 150px;
+}
+footer{
+    width:100%;
+    height:184px;
+    margin-top: auto;
+    bottom:0;
+    background-color: #111214;
+}
+#allFooter{
+    position: relative;
+    right: 10px;
+}
+#S_logoos{
+    position: relative;
+    bottom: 20px;
+}
+#FootInfo{
+    position: relative;
+    bottom: 100px;
+    text-align: center;
+}
+#space{
+    margin-top: 200px;
+}

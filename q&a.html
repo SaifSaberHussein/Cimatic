@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8" />
+        <title>Q&A</title>
+        <link rel="stylesheet" href="qa.css" />
+        <script>
+        function show_hide(element)
+            {
+               var myAnswer = element.nextElementSibling;
+   
+               var displaySetting = myAnswer.style.display;
+   
+               var quizButton = element;
+   
+               if(displaySetting=="inline-block"){
+                   myAnswer.style.display = 'none';
+   
+                   quizButton.innerHTML = 'Show Answer';
+               }
+               else
+               {
+                   myAnswer.style.display = 'inline-block';
+                   quizButton.innerHTML = 'Hide Answer';
+               }
+            }</script>
+        
+    </head>
+    <nav>
+        <div id="BAR">
+            <br>
+            <br>
+            <a href="Profile.html" id="PI">
+                <img src="ProfileIcon.png" alt="" height="50" width="50" style="position: absolute; right: 18px; top: 18px;">
+            </a>
+            <br>
+            <a href="index.html" id="LOGO">
+                <img src="CimaLogo.png" alt="" height="55" width="190" style="position: absolute; left: 15px; top: 15px;">
+            </a>
+
+            <a id="log"  href="Log in.html">login</a>
+
+            <a id="sign" href="Sign up.html">sign-up</a>
+
+            <a  href=""><img id="cart" src="add-to-cart.png" title="cart" ></a>
+
+            <datalist id="data">
+                <option value="GODZILLA X KONG: THE NEW EMPIRE">
+                <option value="THE MINISTRY OF UNGENTLEMANLY WARFARE">
+                <option value="DUNE: PART TWO">
+                <option value="KUNG FU PANDA 4">
+                <option value="WONKA">
+                <option value="SLOTHERHOUSE">
+                <option value="SHEQO">
+                <option value="SUGA | AGUST D TOUR 'D-DAY' THE MOVIE">
+            </datalist>
+            <form action="action_page.php"></form>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <input id="searchbar"list="data" type="search" placeholder="Search.." >
+                <button id="searchicon" type="submit"><i class="fa fa-search"></i></button>
+            </form> 
+
+
+            <br>
+            <br>
+        </div>
+
+
+        <div id="SB">
+            <br>
+            <a id="food"href="" ><span>FOOD & DRINKS</span> </a>
+            <a id="Kids" href=""><span>KIDS </span></a>
+            <a id="i" href="contact us.html"><span>CONTACT US </span></a>
+            <a  href="">
+                <img id="f" src="Mail .png" alt="">
+            </a>
+        <br>
+        <br>
+        </div>
+    </nav>
+    <body>
+        <div id="allBody">
+            
+            <div id="allq">
+            <p id="qa">
+                Q&A 
+            </p>
+            <img src="Questions and answers for photography- basic Q&A list.jpg" alt="" style="height: 100px;width: 100px;position: relative;top: -65px; left: 200px;">
+            <div id="topmarg">
+                
+            <p  id="q1">Q1: How do I book tickets online?<br></p>
+                <button class="question-button" onclick="show_hide(this)">show answer</button>
+                <p id="answer" class="A1">A: Booking tickets online is easy! Simply go to our website, select the movie, date, time, and the number of tickets you want then proceed to checkout to complete your purchase.</p>
+                
+                <p  id="q2">Q2: Can I choose my seats when booking tickets online?<br></p>
+                <button class="question-button" id="q2pos" onclick="show_hide(this)">show answer</button>
+                    <p class="A2" id="answer">A: Yes, you can! Our website allows you to select your preferred seats from an interactive seating map, giving you the flexibility to choose the best available seats for
+                your movie-going experience.</p>
+                    
+                    <p id="q3">Q3: What payment methods do you accept for online ticket bookings?</p>
+                    <button class="question-button" id="q3pos" onclick="show_hide(this)">show answer</button>
+                <p class="A3" id="answer">A: We accept a variety of payment methods, including credit/debit cards,and online banking. You can choose the payment method 
+                that is most convenient for you during the checkout process.</p>
+                    <p id="q4">Q4: Is it possible to cancel or change my booking after I've purchased the tickets online?</p>
+                    <button class="question-button" id="q4pos" onclick="show_hide(this)">show answer</button>
+                    <p class="A4" id="answer">A: Yes, you can cancel or change your booking, but please note that our cancellation and change policies may vary depending on the movie, date, and time of the screening.
+                     We recommend checking our terms and conditions or contacting our customer support for assistance with cancellations or changes.</p>        
+                    <p id="q5">Q5: Do I need to create an account to book tickets online?</p>
+                    <button class="question-button" id="q5pos" onclick="show_hide(this)">show answer</button>
+                    <p class="A5" id="answer">A: While creating an account is not mandatory, we highly recommend it! Creating an account allows you to save your preferences, view your booking history      
+                    and receive updates on upcoming movies and promotions. It also makes the booking process faster and more convenient for future purchases.</p>                
+                </div>
+                </div>
+            </div>
+            <iframe src="https://www.youtube.com/embed/tXheHe3T4lg" frameborder="0" style="width: 500px;height: 300px;margin-top: 100px ;" id="iframe"></iframe>
+                <div id="space"></div>    
+            </body>
+
+
+    <footer>
+        <div id="allFooter">
+            <div id="S_logoos">
+                <a href="index.html" id="logoo">
+                    <img src="CimaLogo.png" alt="" height="40" width="140">
+                </a>
+            
+                <a href="" id="facebook">
+                    <span>
+                        <img src="facebook.svg" alt="" height="20" width="20">
+                    </span>
+                </a>
+                <a href="" id="instagram">
+                    <img src="instagram.svg" alt="" height="20" width="20">
+                </a>
+                <a href="" id="twitter">
+                    <img src="twitter.svg" alt="" height="20" width="20">
+                </a>
+            </div>
+            <div id="FootInfo">
+                <p id="about"><span>About</span></p>
+                <p id="aboutus"><span>about us</span></p>
+                <a href="q&a.html" id="faq"><span>FAQ</span></a>
+                <a href="contact us.html" id="conn"><span>Contact Us</span></a>
+                <p id="explore"><span>Explore Our Site</span></p>
+                <a href="index.html" id="whatson"><span>What's On</span></a>
+                <a href="" id="foods"><span>Food Menu</span></a>
+            </div>
+        </div>
+    </footer>
