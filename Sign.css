@@ -389,10 +389,11 @@ option{
     }
 
 #ul{
-    margin: 40px 0;
+    margin: 60px 0;
     color: rgb(23, 170, 219);
     list-style: armenian;
     padding-left: 45px;
+    padding-right: 45px;
     font-size: x-large;
     font-variant: small-caps;
 }
@@ -425,7 +426,7 @@ option{
     border:none;
     box-shadow: -7px -7px 17px rgb(38, 38, 38),
                 7px   7px 17px rgb(14, 12, 12);
-    transform: translate(500px, -80px);
+    transform: translate(500px, -60px);
     position:absolute;
 }
 
@@ -435,5 +436,31 @@ option{
     transform: scale(1.2);
     box-shadow:  7px    7px 17px rgb(38, 38, 38),
                 -7px   -7px 17px rgb(14, 12, 12);
-    transform: translate(500px, -80px);
+    transform: translate(500px, -60px);
+}
+
+.translate{
+    background-color: #00B294;
+    color: black;
+    padding: 12px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    border:none;
+    box-shadow: -7px -7px 17px rgb(38, 38, 38),
+                7px   7px 17px rgb(14, 12, 12);
+    transform: translate(370px, -60px);
+    position:absolute;
+}
+
+.translate:hover {
+    background-color: rgb(23, 170, 219);
+    color:white;
+    transform: scale(1.2);
+    box-shadow:  7px    7px 17px rgb(38, 38, 38),
+                -7px   -7px 17px rgb(14, 12, 12);
+        transform: translate(370px, -60px);
 }
