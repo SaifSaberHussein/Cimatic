@@ -35,12 +35,26 @@
             <option href="m7.html" value="SHEQO">
             <option href="m8.html" value="SUGA | AGUST D TOUR 'D-DAY' THE MOVIE">
         </datalist>
-        <form action="">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-            <input id="searchbar"list="data" type="search" placeholder="Search.." >
+          <form id="searchForm">
+            <input id="searchbar" list="data" type="search" placeholder="Search..">
             <button id="searchicon" type="submit"><i class="fa fa-search"></i></button>
-        </form> 
-
+        </form>
+    
+        <script>
+            document.getElementById("searchForm").addEventListener("submit", function(event) {
+                event.preventDefault(); 
+                
+                var input = document.getElementById("searchbar").value;
+                var options = document.getElementById("data").getElementsByTagName("option");
+                
+                for (var i = 0; i < options.length; i++) {
+                    if (options[i].value === input) {
+                        window.location.href = options[i].getAttribute("href");
+                        break;
+                    }
+                }
+            });
+        </script>
 
         <br>
         <br>
